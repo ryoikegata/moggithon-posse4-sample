@@ -1,0 +1,47 @@
+
+
+
+
+.header {
+  width: 100%;
+position: fixed;
+top: 0;
+background: #ffffff;
+border-radius: 5px;
+z-index: 3;
+
+
+  &__inner {
+display: flex;
+justify-content: space-around;
+text-align: center;
+align-items: center;
+
+
+    &__title {
+      color: green;
+      font-weight: bold;
+      font-size: 65px;
+      letter-spacing: 6px;
+      box-shadow: 3px;
+
+
+    }
+
+
+    &__nav {
+      width: 30%;
+      display: flex;
+      justify-content: space-around;
+    }
+
+
+    a {
+      display: block;
+      color: green;
+      font-size: 30px;
+      font-weight: 600;
+      text-decoration: none;
+    }
+  }
+}

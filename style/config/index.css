@@ -1,0 +1,138 @@
+.header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background: #ffffff;
+  border-radius: 5px;
+  z-index: 3;
+}
+.header__inner {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+.header__inner__title {
+  color: green;
+  font-weight: bold;
+  font-size: 65px;
+  letter-spacing: 6px;
+  box-shadow: 3px;
+}
+.header__inner__nav {
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+}
+.header__inner a {
+  display: block;
+  color: green;
+  font-size: 30px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.eat {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+.eat__titile {
+  margin-bottom: 10%;
+}
+.eat__titile h2 {
+  font-size: 60px;
+  letter-spacing: 5px;
+  font-weight: bold;
+  background: green;
+  padding: 5%;
+  color: bisque;
+}
+.eat__menu {
+  width: 100%;
+}
+.eat__menu__name {
+  width: 100%;
+  display: flex;
+  margin-bottom: 5%;
+}
+.eat__menu__name__img {
+  width: 50%;
+  height: 30%;
+  align-items: center;
+  text-align: center;
+}
+.eat__menu__name__text {
+  width: 50%;
+  height: 50%;
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  background-color: #a2eb6e;
+  align-items: center;
+  border-radius: 25px;
+  padding: 5%;
+}
+.eat__menu__name__text h3 {
+  font-weight: bold;
+  font-size: 30px;
+  color: beige;
+  letter-spacing: 4px;
+}
+.eat__menu__name__text p {
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.game__title {
+  margin-top: 20%;
+  font-size: 60px;
+  font-weight: bold;
+  color: bisque;
+  background: green;
+  padding: 5%;
+  margin-bottom: 3%;
+}
+
+.game {
+  padding: 15%;
+  margin: 0 auto;
+  background: green;
+  position: relative;
+  z-index: 1;
+}
+
+.stop {
+  font-size: 30px;
+  background: red;
+  padding: 5%;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 auto;
+  position: absolute;
+  right: 20%;
+  color: bisque;
+}
+
+.spin {
+  font-size: 30px;
+  background: blue;
+  padding: 5%;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  left: 20%;
+  color: bisque;
+}
+
+.text {
+  padding: 10%;
+  background: #2eaa34;
+  font-size: 30px;
+  border-radius: 5%;
+  color: bisque;
+  font-size: 60px;
+  font-weight: bold;
+}/*# sourceMappingURL=index.css.map */

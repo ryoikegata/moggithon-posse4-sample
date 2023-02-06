@@ -1,0 +1,50 @@
+.game__title {
+  margin-top: 20%;
+  font-size: 60px;
+  font-weight: bold;
+  color: bisque;
+  background: green;
+  padding: 5%;
+  margin-bottom: 3%;
+}
+
+.game {
+  padding: 15%;
+  margin: 0 auto;
+  background: green;
+  position: relative;
+  z-index: 1;
+}
+
+.stop {
+  font-size: 30px;
+  background: red;
+  padding: 5%;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 auto;
+  position: absolute;
+  right: 20%;
+  color: bisque;
+}
+
+.spin {
+  font-size: 30px;
+  background: blue;
+  padding: 5%;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  left: 20%;
+  color: bisque;
+}
+
+.text {
+  padding: 10%;
+  background: #2eaa34;
+  font-size: 30px;
+  border-radius: 5%;
+  color: bisque;
+  font-size: 60px;
+  font-weight: bold;
+}/*# sourceMappingURL=slot.css.map */

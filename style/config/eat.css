@@ -1,0 +1,53 @@
+.eat {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 10%;
+}
+.eat__titile {
+  margin-bottom: 10%;
+}
+.eat__titile h2 {
+  font-size: 60px;
+  letter-spacing: 5px;
+  font-weight: bold;
+  background: green;
+  padding: 5%;
+  color: bisque;
+}
+.eat__menu {
+  width: 100%;
+}
+.eat__menu__name {
+  width: 100%;
+  display: flex;
+  margin-bottom: 5%;
+}
+.eat__menu__name__img {
+  width: 50%;
+  height: 30%;
+  align-items: center;
+  text-align: center;
+}
+.eat__menu__name__text {
+  width: 50%;
+  height: 50%;
+  display: inline-block;
+  justify-content: center;
+  text-align: center;
+  background-color: #a2eb6e;
+  align-items: center;
+  border-radius: 25px;
+  padding: 5%;
+}
+.eat__menu__name__text h3 {
+  font-weight: bold;
+  font-size: 30px;
+  color: beige;
+  letter-spacing: 4px;
+}
+.eat__menu__name__text p {
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 25px;
+  font-weight: 400;
+}/*# sourceMappingURL=eat.css.map */
